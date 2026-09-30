@@ -1,0 +1,97 @@
+.main {
+  margin-left: 30%;
+  background-image: linear-gradient(
+    325deg,
+    hsl(240deg 48% 34%) 0%,
+    hsl(240deg 35% 44%) 19%,
+    hsl(240deg 30% 55%) 38%,
+    hsl(240deg 31% 68%) 57%,
+    hsl(240deg 30% 81%) 77%,
+    hsl(0deg 0% 96%) 100%
+  );
+  margin-top: 30px;
+  width: 40%;
+  height: 650px;
+  border-radius: 20px;
+  padding-top: 12px;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #100059;
+}
+
+h1 {
+  font-family: Georgia, serif;
+}
+
+.p1 { font-family: "Lora", serif; }
+.p2 { font-family: "Caveat", cursive; }
+.p3 {
+  font-family: "Merriweather", serif;
+  text-decoration: underline;
+}
+.p4 {
+  font-family: "Oswald", sans-serif;
+  text-shadow: 2px 2px 3px lightgray;
+}
+.p5 { font-family: "Montserrat", sans-serif; }
+.p6 { font-family: "Roboto Slab", serif; }
+.p7 { font-family: "Pacifico", cursive; }
+.p8 {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: line-through;
+  text-shadow: 1px 1px 2px silver;
+}
+.p9 { font-family: "Raleway", sans-serif; }
+.p10 { font-family: "Inconsolata", monospace; }
+.p11 { font-family: "Nunito", sans-serif; }
+.p12 {
+  font-family: "Playfair Display", serif;
+  text-decoration: overline;
+  text-shadow: 2px 2px 3px lightgray;
+}
+.p13 { font-family: "Lobster", cursive; }
+.p14 {
+  font-family: "Fira Code", monospace;
+  color: rgb(5, 136, 192);
+}
+.p15 {
+  font-family: "Abril Fatface", serif;
+  color: cadetblue;
+}
+
+.p5 span,
+.p9 span {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.rainbow-animated {
+  background: repeating-linear-gradient(
+    90deg,
+    red 0,
+    orange 10px,
+    yellow 20px,
+    green 30px,
+    cyan 40px,
+    blue 50px,
+    violet 60px,
+    red 70px
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 3s linear infinite;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+@keyframes rainbow {
+  to {
+    background-position: 70px 0;
+  }
+}
+
+/*не питайте навіщо, просто треба*/
